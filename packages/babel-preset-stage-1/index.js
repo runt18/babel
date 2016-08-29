@@ -4,6 +4,7 @@ module.exports = {
   ],
   plugins: [
     require("babel-plugin-transform-class-constructor-call"),
-    require("babel-plugin-transform-export-extensions")
+    require("babel-plugin-transform-export-extensions"),
+    require("babel-plugin-transform-unicode-property-regex")
   ]
 };
