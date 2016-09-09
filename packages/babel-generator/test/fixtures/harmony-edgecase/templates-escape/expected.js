@@ -1,12 +1,3 @@
-var escaped = `
-\u2028
-\u2029
-`;
+var escaped = `\n\u2028\n\u2029\n`;
 
-var escaped = `
-\v
-\b
-\t
-\n
-\r
-`;
+var escaped = `\n\v\n\b\n\t\n\n\n\r\n`;

@@ -1,12 +1,7 @@
 html`<b></b>`;
 
-`multi
-  lines`;
+`multi\n  lines`;
 
 `test ${ interpolation } test`;
 
-`foob
-
-  asdf
-awer
-    erqer`;
+`foob\n\n  asdf\nawer\n    erqer`;

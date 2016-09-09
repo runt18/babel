@@ -1,8 +1,6 @@
 var hello = `hello`;
 
-var hello = `
-line
-terminators`;
+var hello = `\nline\nterminators`;
 
 var tagged = tagged`hello`;
 var tagged = member.call`hello`;
@@ -10,22 +8,10 @@ var tagged = new call`hello`();
 var tagged = new (call`hello`())();
 var tageed = member[call`hello`];
 
-var middles = `
-Is the order a rabbit?
-`;
+var middles = `\nIs the order a rabbit?\n`;
 
-var middles = `
-Is the order ${ order }?
-`;
+var middles = `\nIs the order ${ order }?\n`;
 
-var middles = `
-Is the order ${ order }?
-`;
+var middles = `\nIs the order ${ order }?\n`;
 
-var middles = `
-1. ${ cocoa }
-2. ${ chino }
-3. ${ rize }
-4. ${ syaro }
-5. ${ chiya }
-`;
+var middles = `\n1. ${ cocoa }\n2. ${ chino }\n3. ${ rize }\n4. ${ syaro }\n5. ${ chiya }\n`;
